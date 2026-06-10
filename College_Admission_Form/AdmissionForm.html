@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College-AdmissionForm</title>
+</head>
+<body>
+
+         <h1 align="center"> COLLEGE ADMISSION FORM</h1>
+
+    <hr>
+    
+
+
+
+    <form>
+
+          <fieldset>
+              <legend><b>Student Details</b></legend>
+
+            <label for="fname">First Name: </label>
+            <input type="text" id="fname" name="fname">
+            <br> <br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname">
+            <br> <br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+            <br>  <br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender">
+            <label for="other">Other</label>
+            <br> <br>
+
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile">
+            <br>   <br>
+
+            <label for="email">Email id:</label>
+            <input type="email" id="email" name="email">
+            <br>   <br>
+
+            <label for="nationality">Nationality:</label>
+            <input type="text" id="nationality" name="nationality">
+            <br><br>
+
+          </fieldset>
+
+        <br>
+
+
+
+
+
+        <fieldset>
+            <legend><b>Parent Details</b></legend>
+
+            <label for="father">Father's Name:</label>
+            <input type="text" id="father" name="father">
+            <br>   <br>
+
+            <label for="fathermobile">Father Mobile:</label>
+            <input type="tel" id="fathermobile" name="fathermobile">
+            <br><br>
+
+            <label for="mother">Mother Name:</label>
+            <input type="text" id="mother" name="mother">
+            <br><br>
+
+            <label for="mothermobile">Mother Mobile:</label>
+            <input type="tel" id="mothermobile" name="mothermobile">
+            <br>  <br>
+
+            <label for="parentemail">Parent Email:</label>
+            <input type="email" id="parentemail" name="parentemail">
+            <br> <br>
+
+        </fieldset>
+
+        <br>
+
+
+
+
+
+         <fieldset>
+            <legend><b>Academic Details</b></legend>
+
+            <label for="tenth">10th Percentage:</label>
+            <input type="number" id="tenth" name="tenth">
+            <br><br>
+
+            <label for="inter">12th Percentage:</label>
+            <input type="number" id="inter" name="inter">
+            <br><br>
+
+            <label for="school">Previous School/College:</label>
+            <input type="text" id="school" name="school">
+            <br><br>
+
+        </fieldset>
+
+        <br>
+
+
+
+
+
+        <fieldset>
+            <legend><b>Course Selection</b></legend>
+
+            <label for="course">Select Course:</label>
+
+            <select id="course" name="course">
+
+                <option value="">--Select Course--</option>
+
+                <option>B.Tech Computer Science</option>
+                <option>B.Tech Information Technology</option>
+                <option>B.Tech Electronics</option>
+                <option>B.Tech Mechanical</option>
+                <option>B.Tech Civil</option>
+                <option>BBA</option>
+                <option>BCA</option>
+                <option>B.Com</option>
+
+            </select>
+
+            <br>  <br>
+
+        </fieldset>
+
+
+
+
+
+
+        <br>
+
+        <fieldset>
+            <legend><b>Address Details</b></legend>
+
+            <label for="address">Permanent Address:</label>
+            <br>
+
+            <textarea id="address" name="address" rows="5" cols="50"></textarea>
+
+            <br>  <br>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+
+            <br> <br>
+
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state">
+
+            <br> <br>
+
+            <label for="pincode">Pin Code:</label>
+            <input type="number" id="pincode" name="pincode">
+
+
+        </fieldset>
+
+        <br>
+
+
+
+
+
+
+        <fieldset>
+            <legend><b> Additional Information</b></legend>
+
+            <label>Hobbies:</label>
+
+            <input type="checkbox" id="sports">
+            <label for="sports">Sports</label>
+
+            <input type="checkbox" id="music">
+            <label for="music">Music</label>
+
+            <input type="checkbox" id="reading">
+            <label for="reading">Reading</label>
+
+            <input type="checkbox" id="coding">
+            <label for="coding">Coding</label>
+
+            <br><br>
+
+            <label for="comments">Comments:</label>
+            <br>
+
+            <textarea id="comments" rows="4" cols="50"></textarea>
+
+         </fieldset>
+
+        <br>
+
+
+
+
+
+
+
+        <fieldset>
+            <legend><b>Declaration</b></legend>
+
+            <input type="checkbox" id="declare">
+
+            <label for="declare">
+                I hereby declare that the information provided above is true and correct to the best of my knowledge.
+            </label>
+
+        </fieldset>
+
+        <br>
+
+
+
+
+
+        <input type="submit" value="Submit Application">
+
+        <input type="reset" value="Reset Form">
+
+    </form>
+
+    <hr>
+
+    
+</body>
+</html>
