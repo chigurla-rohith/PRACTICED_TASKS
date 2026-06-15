@@ -1,0 +1,149 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+    font-family:Arial, Helvetica, sans-serif;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    block-size:100vh;
+}
+
+.card{
+
+    inline-size:350px;
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    text-align:center;
+
+    box-shadow:0px 10px 25px rgba(0,0,0,0.25);
+
+    transition:0.4s;
+
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.profile-image{
+
+    margin-block-end:20px;
+
+}
+
+.profile-image img{
+
+    inline-size:140px;
+
+    block-size:140px;
+
+    border-radius:50%;
+
+    border:5px solid #00bfff;
+
+    object-fit:cover;
+
+}
+
+.name h2{
+
+    color:#333;
+
+    margin-block-end:15px;
+
+}
+
+.bio{
+
+    margin-block-end:20px;
+
+}
+
+.bio p{
+
+    color:#666;
+
+    line-height:1.6;
+
+}
+
+.skills{
+
+    margin-block-end:25px;
+
+}
+
+.skills h3{
+
+    color:#222;
+
+    margin-block-end:12px;
+
+}
+
+.skills ul{
+
+    list-style:none;
+
+}
+
+.skills li{
+
+    background:#f1f1f1;
+
+    margin:8px;
+
+    padding:8px;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+}
+
+.social-links{
+
+    display:flex;
+
+    justify-content:space-evenly;
+
+}
+
+.social-links a{
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#0077ff;
+
+    padding:10px 18px;
+
+    border-radius:8px;
+
+    transition:0.3s;
+
+    font-weight:bold;
+
+}
+
+.social-links a:hover{
+
+    background:#0056d2;
+
+}
